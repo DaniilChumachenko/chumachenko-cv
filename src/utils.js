@@ -10,7 +10,7 @@ export const formatAnchorValue = (type, value) => {
       return `tel:${value}`;
     case 'location':
       return `https://maps.google.com/?q=${encodeURIComponent(value)}`;
-    case 'website':
+    case 'telegram':
     case 'github':
     case 'linkedin':
     case 'twitter':

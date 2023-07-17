@@ -41,12 +41,12 @@ export default class Section extends React.Component {
             </h4>
             <hr className={Styles.diver} />
             {this.props.content &&
-            <div className={mergeClassNames(Styles.sectionContent)}>
-              {
-                typeof this.props.content === 'string'
-                  ? <p>{this.props.content}</p> : this.props.content
-              }
-            </div>
+              <div className={mergeClassNames(Styles.sectionContent)}>
+                {
+                  typeof this.props.content === 'string'
+                    ? <p>{this.props.content}</p> : this.props.content
+                }
+              </div>
             }
             {this.props.children &&
               <div className={mergeClassNames(Styles.sectionContent, BulmaCSS.container, BulmaCSS['is-small'], 'bakbakbak')}>

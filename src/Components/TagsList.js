@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import mergeClass from 'classnames';
-import Styles from '../styles.css';
 import Section from './Section';
 import BulmaCSS from 'bulma/css/bulma.css'
+import Styles from "../styles.css";
 
 export const PureTagList = ({ tags = [], tagClass }) => (
   <div className={mergeClass(BulmaCSS.tags, BulmaCSS['are-medium'])}>
@@ -42,7 +42,7 @@ export default class TagsList extends React.Component {
         content={description}
         icon={icon}
       >
-        <PureTagList tags={items} tagClass={'is-primary'} />
+        <PureTagList tags={items} tagStyle={Styles.tagsColor} />
       </Section>
     );
   }
