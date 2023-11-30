@@ -1,4 +1,4 @@
-import imageqw from '../../../../chumachenko-cv/example/src/icmycv.jpg'
+import imageqw from './icmycv.jpg'
 
 export const CVData = {
   personalData: {
