@@ -1,4 +1,4 @@
-import imageqw from './icmycv.jpg'
+import imageqw from '../../../../chumachenko-cv/example/src/icmycv.jpg'
 
 export const CVData = {
   personalData: {
@@ -55,12 +55,21 @@ export const CVData = {
       items: [
         {
           title: 'Middle Android Engineer',
+          company: 'RedRiverApps',
+          description: 'In this project, I work as an Android Middle Engineer. We are developing a banking application, fully utilizing all the capabilities of Android Compose. I have developed numerous different components for the application and provided various interesting solutions.',
+          companyWebSite: '',
+          companyMeta: 'Product company',
+          datesBetween: '2023.10 - present',
+          descriptionTags: ['Jatpack', 'Java', 'Kotlin', 'Android Compose', 'Navigation', 'Remote config', 'Dagger Hilt', 'Retrofit 2', 'Themes', 'Firebase', 'Coroutines', 'Realm', 'Shared Preferences']
+        },
+        {
+          title: 'Middle Android Engineer',
           company: 'Avirise',
           description: 'On this project, I was involved in creating new functionality, providing consultations on architectural development aspects, fixing bugs, and supporting both old and new features. I also actively worked on app monetization, specifically with the placement and implementation of advertising through Google Ads.',
           companyWebSite: '',
           companyMeta: 'Product company',
-          datesBetween: '2022.10 - present',
-          descriptionTags: ['Jatpack', 'Java', 'Widgets', 'Navigation', 'Permissions', 'Remote config', 'Koin', 'Retrofit 2', 'Themes', 'Firebase', 'Custom View', 'Coroutines', 'Compose', 'Room', 'Shared Preferences', 'Google ADS', 'Google Billing & Admob', 'In-App Purchases']
+          datesBetween: '2022.10 - 2023.10',
+          descriptionTags: ['Jatpack', 'Java', 'Kotlin', 'Widgets', 'Navigation', 'Permissions', 'Remote config', 'Koin', 'Retrofit 2', 'Themes', 'Firebase', 'Custom View', 'Coroutines', 'Compose', 'Room', 'Shared Preferences', 'Google ADS', 'Google Billing & Admob', 'In-App Purchases']
         },
         {
           title: 'Strong Junior Android Engineer',
@@ -69,7 +78,7 @@ export const CVData = {
           companyWebSite: '',
           companyMeta: 'Product company',
           datesBetween: '2021.08 - 2022.09',
-          descriptionTags: ['Jatpack', 'Koin', 'Retrofit 2', 'Flexbox', 'Google map', 'Mixpanel', 'Firebase', 'ViewPager 2', 'Branch IO', 'Amazon IVS', 'WebView', 'Custom view', 'Coroutines', 'ExoPlayer', 'BottomSheetBehavior', 'Room', 'Shared Preferences']
+          descriptionTags: ['Jatpack', 'Java', 'Kotlin', 'Koin', 'Retrofit 2', 'Flexbox', 'Google map', 'Mixpanel', 'Firebase', 'ViewPager 2', 'Branch IO', 'Amazon IVS', 'WebView', 'Custom view', 'Coroutines', 'ExoPlayer', 'BottomSheetBehavior', 'Room', 'Shared Preferences']
         },
         {
           title: 'Junior Android Engineer',
@@ -77,7 +86,7 @@ export const CVData = {
           description: 'At this workplace, I started by fixing critical errors in the project related to displaying technical indicators of the smartphone (temperature, battery level, etc.). After that, I was transferred to another project where I developed various screens and functions for an application that uses cards as the main form of communication. I also fixed bugs and rewrote old Java code to Kotlin.',
           companyWebSite: '',
           companyMeta: 'Outsource company',
-          descriptionTags: ['Dagger Hilt', 'MVVM', 'MPAndroidChart', 'MVP', 'Dagger 2', 'Retrofit 2', 'Tooltip', 'Flexbox', 'MapBox', 'Realm', 'Mixpanel'],
+          descriptionTags: ['Java', 'Kotlin', 'Dagger Hilt', 'MVVM', 'MPAndroidChart', 'MVP', 'Dagger 2', 'Retrofit 2', 'Tooltip', 'Flexbox', 'MapBox', 'Realm', 'Mixpanel'],
           datesBetween: '2020.12 - 2021.09'
         },
         {
@@ -86,7 +95,7 @@ export const CVData = {
           companyWebSite: '',
           description: 'During my internship, I developed the notes feature as a separate module called "Notes". It was my first job, and at that time, I only knew Java. So, during my time at this company, I studied Android development tools, popular architectural patterns, and made the transition from Java to Kotlin.',
           companyMeta: 'Product company',
-          descriptionTags: ['Room', 'MVVM', 'Jetpack', 'Clean Architecture', 'Android SDK', 'Dagger 2'],
+          descriptionTags: ['Java', 'Kotlin', 'Room', 'MVVM', 'Jetpack', 'Clean Architecture', 'Android SDK', 'Dagger 2', 'AOSP', 'С++'],
           datesBetween: '2019.12 - 2020.06'
         }
       ]
@@ -221,7 +230,7 @@ export const CVData = {
       type: 'tag-list',
       title: 'Technology stack',
       icon: 'rocket',
-      items: ['Java', 'Kotlin', 'MVVM', 'MVP', 'Gradle', 'Git', 'Jira', 'Slack', 'Bitbucket', 'GitHub', 'Figma', 'Zeplin', 'Bitrise', 'Dagger 2', 'Dagger Hilt', 'Koin', 'Clean Architecture', 'Android SDK', 'Retrofit 2', 'Tooltip', 'Flexbox', 'MapBox', 'Google maps', 'Mixpanel', 'Firebase', 'MPAndroidChart', 'ViewPager 2', 'Branch IO', 'Amazon IVS', 'Custom view', 'Coroutines', 'RxJava', 'ExoPlayer', 'BottomSheetBehavior', 'WebView', 'Room', 'SOLID', 'Realm', 'Shared Preference', 'Google ADS', 'Permissions', 'Google Billing & Admob', 'Remote Config', 'In-App Purchases']
+      items: ['Java', 'Kotlin', 'MVVM', 'MVP', 'Gradle', 'Git', 'Jira', 'Slack', 'Bitbucket', 'GitHub', 'Figma', 'Zeplin', 'Bitrise', 'Dagger 2', 'Dagger Hilt', 'AOSP', 'С++', 'Koin', 'Clean Architecture', 'Android SDK', 'Retrofit 2', 'Tooltip', 'Flexbox', 'MapBox', 'Google maps', 'Mixpanel', 'Firebase', 'MPAndroidChart', 'ViewPager 2', 'Branch IO', 'Amazon IVS', 'Custom view', 'Coroutines', 'RxJava', 'ExoPlayer', 'BottomSheetBehavior', 'WebView', 'Room', 'SOLID', 'Realm', 'Shared Preference', 'Google ADS', 'Permissions', 'Google Billing & Admob', 'Remote Config', 'In-App Purchases']
     },
     {
       type: 'tag-list',
