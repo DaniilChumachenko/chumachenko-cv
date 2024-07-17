@@ -55,12 +55,12 @@ export const CVData = {
       items: [
         {
           title: 'Middle Android Engineer',
-          company: 'RedRiverApps',
-          description: 'In this project, I work as an Android Middle Engineer. We are developing a banking application, fully utilizing all the capabilities of Android Compose. I have developed numerous different components for the application and provided various interesting solutions.',
+          company: 'Finegry.md',
+          description: 'All work with Android components is done within the paradigm of Android Compose. As a senior engineer at the company, I make architectural decisions and solve all complex problems, from publishing the application, fixing bugs, and developing features to configuration aspects with Firebase and CI. Over time, the project has expanded from an application for a single bank to a white-label application supporting multiple banks, using multi-modularity, DI, and product flavors. Additionally, for such a complex configuration of multiple build sources, I created a CI script so that a tester could build an APK for any implementation of the application at any time.',
           companyWebSite: '',
           companyMeta: 'Product company',
           datesBetween: '2023.10 - present',
-          descriptionTags: ['Jatpack', 'Java', 'Kotlin', 'Android Compose', 'Navigation', 'Remote config', 'Dagger Hilt', 'Retrofit 2', 'Themes', 'Firebase', 'Coroutines', 'Realm', 'Shared Preferences']
+          descriptionTags: ['Jatpack', 'Java', 'Kotlin', 'Android Compose', 'Navigation', 'CI/CD', 'Product flavors', 'Dagger Hilt', 'Retrofit 2', 'Themes', 'Firebase', 'Coroutines', 'Realm', 'Shared Preferences', 'Animations', 'Cloud messaging', 'Remote config']
         },
         {
           title: 'Middle Android Engineer',
